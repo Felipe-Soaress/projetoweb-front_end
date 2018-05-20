@@ -1,0 +1,27 @@
+{
+  "name": "crv-software-factory",
+  "version": "1.0.0",
+  "description": "Projeto final de Programação Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crv-softwarefactory/projetoweb-front_end.git"
+  },
+  "keywords": [
+    "web",
+    "css",
+    "noticias",
+    "automotivo",
+    "carros",
+    "moto"
+  ],
+  "author": "CRV Software Factory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crv-softwarefactory/projetoweb-front_end/issues"
+  },
+  "homepage": "https://github.com/crv-softwarefactory/projetoweb-front_end#readme"
+}
