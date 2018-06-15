@@ -1,0 +1,31 @@
+#all{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        @media screen and (max-width: 800px){
+            .box-example{
+                width: 100vw;
+            }
+        }
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+      h1{
+            text-align: center;
+            font-family: "segoe script", segoe;
+
+      }
+.descricao-item{
+   text-align: center; 
+}
+.menu{
+	padding: 0 !important;
+}
+.nav-item{
+	margin-left: 65px !important;
+	margin-right: 65px !important;
+}

@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+}
+.selector-for-some-widget {
+	box-sizing: content-box;
+  }
+
+
+	li{
+		display: inline-block;
+		margin: 10px 100px 10px 0;
+
+
+
+	}	
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		.logo{
+			position: float;
+			background-image: url("../assets/imagens/capa.jpg");
+			background-repeat: no-repeat;
+			opacity: 0.65;
+			background-size: 100% 400px;
+			height: 400px;
+			margin: 0;
+		}
+		.menu{
+			padding: 0 !important;
+		}
+		.nav-item{
+			margin-left: 65px !important;
+			margin-right: 65px !important;
+		}
+
+
+	
+	.center{
+		height: 40ex;
+		width: 100ex;
+	}
+
+#form{
+	padding: 2em;
+	text-align: center;
+	background-color: #8a8a8a
+}
+
+input{
+	margin-left: 20em;
+}
+textarea{
+	margin-left: 27em;
+}
