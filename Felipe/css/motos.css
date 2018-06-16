@@ -1,0 +1,60 @@
+#all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px){
+    .box-example{
+        width: 100vw;
+    }
+}
+.selector-for-some-widget {
+box-sizing: content-box;
+}
+.logo{
+position: float;
+background-image: url("../assets/imagens/capa.jpg");
+background-repeat: no-repeat;
+opacity: 0.65;
+background-size: 100% 400px;
+height: 400px;
+margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: "segoe script", segoe;
+
+}
+.descricao-item{
+text-align: center; 
+}
+.menu{
+padding: 0 !important;
+}
+.nav-item{
+margin-left: 65px !important;
+margin-right: 65px !important;
+}
+.descricao-item{
+padding-top: 5px;
+padding-bottom: 20px;
+}
+.item{
+padding: 5px;
+}
+.cilas{
+font-family: fantasy;
+text-align: right;
+font-size: 80px;
+padding-top: 240px;
+padding-right: 60px;
+color: darkslategrey;
+}
+.ultimas{
+font-size: 50px;
+font-family: fantasy;
+padding: 20px;
+}

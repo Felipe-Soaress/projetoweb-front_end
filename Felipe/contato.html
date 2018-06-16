@@ -1,68 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>carros</title>
-    <link rel="stylesheet" type="text/css" href="./css/carro.css">
-    <link rel="stylesheet" type="text/css" href="./css/home.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>carros</title>
+    <title>contato</title>
     <link rel="stylesheet" type="text/css" href="./css/contato.css">
-       
+    <link rel="stylesheet" type="text/css" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
 </head>
+
 <body>
     <header>
-        
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <ul class="navbar-nav menu">
-                            <li class="nav-item" class="nav-item"><a class="nav-link" href="Cilasautosport.html">HOME <span class="sr-only">(current)</span></a></li>
-                            <li class="nav-item"><a class="nav-link" href="noticia.html">NOTICIA</a></li>
-                            <li class="nav-item"><a class="nav-link" href="lancamentos.html">LANÇAMENTOS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="carros.html">CARROS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="motos.html">MOTOS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contato.html">CONTATO</a></li>
-                        </ul>
-                    </div>
-            </nav>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav menu">
+                    <li class="nav-item" class="nav-item">
+                        <a class="nav-link" href="Cilasautosport.html">HOME
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticia.html">NOTICIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lancamentos.html">LANÇAMENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carros.html">CARROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="motos.html">MOTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="logo">
+            <h1 class="cilas">Cila's Autosport</h1>
             <a href="Cilasautosport.html"></a>
-            <img src="./assets/imagens/logo4.png">
-            
         </div>
     </header>
-    <div id="form">
-        
-        <p><b>Nome:</b><br>
-        <input type=text name="nome" size="45"></p><br>
-        <p><b>Email:</b><br>
-        <input type=text name="email" size="45"></p><br>
-        <p><b>Assunto:</b><br>
-        <input type=text name="assunto" size="45"></p><br>
-        <p><b>Mensagem:</b><br>
-        <textarea name="Mensagem" rows="10" cols="60" wrap="virtual"></textarea></p><br>
-        <p><input type="submit" value="Enviar Email"> <input type="reset" value="Limpar Formulário"></p>
-    </div>
+    <form id="form">
+        <div class="form-row">
+          <div class="col-md-7 mb-3">
+            <label for="validationServer01">Nome</label>
+            <input type="text" class="form-control " id="validationServer01" placeholder="Nome" value="" required>
+          </div>
+          <div class="col-md-7 mb-3">
+            <label for="validationServerUsername">Email</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationServerUsername" placeholder="Email" aria-describedby="inputGroupPrepend3" required>
+              <div class="invalid-feedback">
+                Insira um email.
+              </div>
+              <div class="valid-feedback">
+                Muito Bem!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-7 mb-3">
+            <label for="validationServer03">Assunto</label>
+            <input type="text" class="form-control" id="validationServer03" placeholder="Assunto" required>
+          </div>
+        </div>
+        <p>
+            <b>Mensagem:</b>
+            <br>
+            <textarea name="Mensagem" rows="10" cols="60" wrap="virtual"></textarea>
+        </p>
+        <button class="btn btn-primary btn-dark" type="submit">Enviar</button>
+      </form>
+
+
+
+
+
+
+
+
+
+
+    
     <footer>
         <h2>Sobre nós</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur<br>
-            adipiscing elit.Morbi quis dui vehicula, posuere<br>
-            est fermentum, varius ante.Curabitur metus<br>
-            libero, pretium ac urna quis, fermentum sodales<br>
-            leo. Donec ac feugiat dolor.</p>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
+        <p>Lorem ipsum dolor sit amet, consectetur
+            <br> adipiscing elit.Morbi quis dui vehicula, posuere
+            <br> est fermentum, varius ante.Curabitur metus
+            <br> libero, pretium ac urna quis, fermentum sodales
+            <br> leo. Donec ac feugiat dolor.</p>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
     </footer>
 </body>
+
 </html>

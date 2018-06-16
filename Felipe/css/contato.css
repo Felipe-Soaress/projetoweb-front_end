@@ -1,5 +1,7 @@
 body{
-	margin: 0;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 .selector-for-some-widget {
 	box-sizing: content-box;
@@ -43,8 +45,13 @@ body{
 
 #form{
 	padding: 2em;
-	text-align: center;
-	background-color: #8a8a8a
+	text-align: center!important;
+	background-color: #8a8a8a;
+	margin: 0 auto;
+}
+.form-row{
+	margin-right: -10px!important;
+	margin-left: 370px!important;
 }
 
 input{
@@ -52,4 +59,16 @@ input{
 }
 textarea{
 	margin-left: 27em;
+}
+nav{
+	text-align: center;
+	line-height: 0 !important;
+}
+.cilas{
+	font-family: fantasy;
+	text-align: right;
+	font-size: 80px;
+	padding-top: 240px;
+	padding-right: 60px;
+	color: darkslategrey;
 }

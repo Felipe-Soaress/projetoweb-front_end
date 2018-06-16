@@ -1,3 +1,10 @@
+.menu{
+	padding: 0 !important;
+}
+.nav-item{
+	margin-left: 65px !important;
+	margin-right: 65px !important;
+}
 
 body{
 	margin: 0;
@@ -21,26 +28,6 @@ body{
 	padding-right: 60px;
 	color: darkslategrey;
 }
-	footer{
-	padding-left: 1em;
-	margin: 0;
-	color: white;
-	vertical-align: top;
-	background-color: black;
-	
-}
-.menu{
-	padding: 0 !important;
-}
-.nav-item{
-	margin-left: 65px !important;
-	margin-right: 65px !important;
-}
-img{
-	width: 600px;
-	height: 400px;
-}
-.box{
-	padding: 20px;
-	padding-left: 40px;
+.slide{
+    height: 700px;
 }
